@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Login & Registration Form </title>
+
+ <link rel="stylesheet" href="styles.css">
+ <style>
+  h1{
+    font-size:30px;
+    text-align:center;
+    font-weight:normal;
+  }
+  p{
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+  }
+  button{
+            
+            border: 0;
+  text-align: center;
+  display: inline-block;
+  padding: 14px;
+  width: 150px;
+  margin: 7px;
+  color: #ffffff;
+  background-color: #36a2eb;
+  border-radius: 8px;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  transition: box-shadow 200ms ease-out;
+  }
+ </style>
+</head>
+
+<body>
+ <div class="container">
+   <h1> Welcome to <b>RIGS</b> Water Station</h1>
+   <br>
+   <p> Log in as: </p>
+   <input type="checkbox" id="check">
+   <div class="login form">
+        <form action="staff-start.php">
+     <input type="submit" name="login_user" class="button" value="STAFF">
+    </form>
+    <form action="admin-start.php">
+     <input type="submit" name="login_user" class="button" value="ADMIN">
+    </form>
+   </form>
+   </div>
+   </div>
+ </div>     
+ 
+</body>
+</html>
